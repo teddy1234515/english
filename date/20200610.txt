@@ -13,3 +13,4 @@ characteristic   特徵(人的特質)
 configuration    配置
 squares          正方形
 suspend          暫停
+remote           偏僻的
