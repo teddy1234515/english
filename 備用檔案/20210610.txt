@@ -1,0 +1,15 @@
+event            事件
+reference        參考
+count            數數字
+collection       收藏
+usage            用法
+mention          提到
+constant         不變
+feature          特徵(人的外觀)
+quality          質量、品質
+typical          典型的
+particular       特別的
+characteristic   特徵(人的特質)
+configuration    配置
+squares          正方形
+suspend          暫停
