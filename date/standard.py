@@ -12,14 +12,17 @@ for i in pathList:
         with open(i,'r+',encoding="utf-8") as f:
             # 將每一行讀區並加入 data_raw 列表
             data_raw = f.read().splitlines()
-            # 得到列表中最長字的長度
-            maxLen = len(max(data_raw,key = len))
+            # 單子最長長度, 用來記錄
+            maxLen = 0
             # 暫時儲存區, 等等用來存放『英文』與『翻譯』
             save_temporarily = []
             # 將『英文』與『翻譯』分開
             for j in range(len(data_raw)):
                 wordSplit = data_raw[j].split()
                 save_temporarily.append(wordSplit)
+                # 找出長度最長單字的長度
+                if(len(wordSplit[0])>maxLen):
+                    maxLen = len(wordSplit[0])
             f.truncate(0)    # 清空目前的檔案
             # 使用 truncate(0) 清空後,      (接下行)
             # 需要使用 seek(0)移到檔案的開頭 (接下行)
@@ -27,7 +30,8 @@ for i in pathList:
             f.seek(0)
             for k in save_temporarily:
                 f.write(k[0] +
-                        " "*(maxLen-len(k[0])) + 
+                        " "*(maxLen-len(k[0])+3) + 
                         k[1] +
                         "\n")
+            
             save_temporarily = []
