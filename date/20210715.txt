@@ -1,0 +1,4 @@
+alternate   備用
+overview    概述
+diagram     圖表
+verified    驗證
