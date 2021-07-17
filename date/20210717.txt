@@ -1,0 +1,5 @@
+represents   代表
+decimal      十進制
+increment    增量
+submit       提交
+interview    面試
