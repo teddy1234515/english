@@ -1,0 +1,4 @@
+staircase   樓梯
+distinct    不同
+ways        方法
+factorial   階層
