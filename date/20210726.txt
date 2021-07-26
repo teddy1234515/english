@@ -3,3 +3,4 @@ concept       概念
 extractor     提取器
 theoretical   理論的
 essence       本質
+recently      最近
