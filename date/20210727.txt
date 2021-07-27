@@ -1,0 +1,4 @@
+slider        滑塊
+incremental   增加的
+description   描述
+assign        分配
