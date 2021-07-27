@@ -2,3 +2,8 @@ slider        滑塊
 incremental   增加的
 description   描述
 assign        分配
+certainly     當然
+whistle       哨子
+spend         花費
+implement     實施
+availity      可用性的
