@@ -1,0 +1,7 @@
+diagram     圖表
+stuff       東西
+typically   通常
+refer       參考
+term        術語
+directly    直接地
+sketch      草稿
