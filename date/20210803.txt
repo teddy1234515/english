@@ -1,0 +1,5 @@
+protocol       協議
+Introduction   介紹
+peripheral     周邊
+register       登記
+management     管理
