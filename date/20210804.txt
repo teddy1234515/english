@@ -1,0 +1,4 @@
+blur        模糊
+averages    平均值
+divide      劃分
+inception   開始
