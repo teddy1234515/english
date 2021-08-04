@@ -1,4 +1,7 @@
-blur        模糊
-averages    平均值
-divide      劃分
-inception   開始
+blur         模糊
+averages     平均值
+divide       劃分
+inception    開始
+dependent    依賴
+discussion   討論
+described    描述
